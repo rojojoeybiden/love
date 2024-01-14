@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="notfound.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="icon" type="image/x-icon" href="favicon.svg">
+    <title>01/01/2024 | our '24</title>
+</head>
+
+<body>
+    <header>
+        <img src="header.png" alt="">
+        <div id="headerTitle">
+          <h1>our '24</h1>
+        </div>
+    </header>
+
+
+    <div id="Content">
+
+        <div class="headerButton">
+
+            <a href="index.html">
+                    <div class="button">
+                        <p>home</p>
+                    </div>
+            </a>
+    
+            <a href="monthJan.html">
+                <div class="button">
+                    <p>back to calendar</p>
+                </div>
+            </a>
+    
+            <a href="javascript:history.back()">
+                <div class="button">
+                    <p>back to previous page</p>
+                </div>
+            </a>
+    
+        </div>
+
+
+
+        <div id="monthTitle">
+            <h1>January 01, 2024</h1>
+        </div>
+        
+            <div class="textContent">
+                <p>What a start for the new year. My love of my love with me on the beach since April of last year. We ate food that our families cooked the day prior, we finally swam together for such a long time, we laughed together while we were in the waters, we looked at the stars in the sky, and we love. It's honestly an awesome first day of 2024. Hope the year gives more of these vibes wherein were together happily in the moment.</p>
+                <br>
+            </div>
+    
+
+            <div class="gallery">
+                    <img src="0101 (1).jpg" alt="" onclick="openModal('0101 (1).jpg')">
+                <img src="0101 (2).jpg" alt="" onclick="openModal('0101 (2).jpg')">
+                <img src="0101 (3).jpg" alt="" onclick="openModal('0101 (3).jpg')">
+                <img src="0101 (4).jpg" alt="" onclick="openModal('0101 (4).jpg')">
+                <img src="0101 (5).jpg" alt="" onclick="openModal('0101 (5).jpg')">
+                <img src="0101 (10).jpg" alt="" onclick="openModal('0101 (10).jpg')">
+                <img src="0101 (6).jpg" alt="" onclick="openModal('0101 (6).jpg')">
+                <img src="0101 (7).jpg" alt="" onclick="openModal('0101 (7).jpg')">
+                <img src="0101 (8).jpg" alt="" onclick="openModal('0101 (8).jpg')">
+                <img src="0101 (9).jpg" alt="" onclick="openModal('0101 (9).jpg')">
+            </div>
+    
+    
+    
+        </div>
+
+    
+    <footer>
+        <div id="sigFoot">
+            <img class="signiture" src="signature_black.png" alt="">
+        </div>
+
+        <div id="infoFooter">
+            <a href="footerjoe.jpg">
+                <h2>Developed by: Joey Rojo</h2>
+            </a>
+            <a href="footerlove.jpg">
+                <h2>Dedicated to: Bea Matabalan</h2>
+            </a>
+            <h2>[MMXXIV]</h2>
+                
+
+        </div>
+    </footer>
+
+
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>

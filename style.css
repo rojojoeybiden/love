@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,p,h2,td,th {
+    font-family: "Poppins" ,Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #ECE2D5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    position: relative;
+    height: 250px;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header h1 {
+    color: #ECE2D5;
+    -webkit-text-stroke: 5px black;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.headerButton {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button p {
+    padding: 10px;
+    background-color: #A16346;
+    color: #ECE2D5;
+    font-weight: 800;
+    font-size: 25px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.button p:hover {
+    transform: scale(1.2);
+}
+
+#desc {
+    padding: 20px 10px 12px 30px;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#desc p {
+    font-family: "Poppins" ,Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#descwarn {
+    display: flex;
+    justify-content: center;
+}
+
+#descwarn p {
+    padding: 10px;
+    background-color: #A16346;
+    color: #ECE2D5;
+    font-weight: 800;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+#Content {
+    /* background-color: orange; */
+    margin-top: 30px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.textContent p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+#monthTitle h1 {
+    font-size: 70px;
+}
+
+.card {
+    background-color: #E3C9A4;
+    width: 365px;
+    padding: 10px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    border-style: solid;
+    transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.image-container {
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    border-style: dashed;
+    border-color: #211C1B;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    
+    transition: transform 0.3s, filter 0.3s;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.2) rotate(10deg); /* Adjust the scale and rotation values as needed */
+    filter: brightness(0.5); /* Adjust the brightness for a subtle effect */
+  }
+
+.card h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+
+table {
+    width: 80%;
+  }
+
+  th, td {
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+th {
+    background-color: #E3C9A4;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+td {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.gallery img {
+    height: 320px;
+    border-radius: 30px;
+    border-style: dashed;
+    border-color: #211C1B;
+    margin: 10px;
+    transition: 0.3s all ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding: 20px;
+    gap: 10px;
+    background-color: #E3C9A4;
+}
+
+.signiture {
+    width:150px;
+    padding: 30px;
+}
+
+#sigFoot {
+   /* background-color: blue; */
+    width: 19%;
+    display: flex;
+    justify-content: center;
+}
+
+#infoFooter h2 {
+    color: #211C1B;
+    transition: transform 0.3s;
+}
+
+#infoFooter h2:hover {
+    transform: scale(1.2);
+}

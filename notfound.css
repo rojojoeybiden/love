@@ -1,0 +1,12 @@
+.notfoundImg {
+    display: flex;
+    justify-content: center;
+}
+
+.notfoundImg img {
+    border-radius: 30px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-style: dashed;
+    border-color: #211C1B;
+}
